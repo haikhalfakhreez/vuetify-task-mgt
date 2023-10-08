@@ -1,0 +1,22 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+$font-family: "Plus Jakarta Sans", sans-serif;
+
+@use "vuetify/settings" with (
+  $heading-font-family: $font-family,
+  $body-font-family: $font-family
+);
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.font-weight-semibold {
+  font-weight: 600;
+}
