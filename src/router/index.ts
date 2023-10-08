@@ -17,12 +17,12 @@ const routes = [
       import(/* webpackChunkName: "create" */ "@/views/Create.vue"),
   },
   {
-    path: "/tasks/:id",
+    path: "/task/:id",
     component: () =>
       import(/* webpackChunkName: "taskDialog" */ "@/views/TaskDialog.vue"),
     children: [
       {
-        name: "tasks",
+        name: "task",
         path: "",
         components: {
           default: () => import("@/views/Tasks.vue"),

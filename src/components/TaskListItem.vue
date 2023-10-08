@@ -44,7 +44,7 @@
         variant="outlined"
         rounded="0"
         size="x-small"
-        :to="`/tasks/${data.id}`"
+        :to="`/task/${data.id}`"
         class="mt-4"
       >
         View Details
