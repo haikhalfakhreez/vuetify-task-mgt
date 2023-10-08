@@ -13,7 +13,8 @@ See live demo [here](https://vuetify-task-mgt.vercel.app/).
 - Filter tasks by date range
 - Highlight tasks by title, description, and labels
 - Persist data to local storage
-- Upload files
+- Route-based dialog
+- File upload and preview
 
 ## Tech Stack
 
