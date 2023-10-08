@@ -5,6 +5,7 @@
       rounded="0"
       prepend-icon="mdi-filter"
       @click="dialog = true"
+      block
     >
       Filter
     </v-btn>
